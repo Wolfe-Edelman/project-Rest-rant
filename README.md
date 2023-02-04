@@ -39,3 +39,4 @@ rants
 | rating   | Number                |
 | comment  | String                |
 | reviewer | String                |
+
