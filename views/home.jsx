@@ -13,3 +13,8 @@ function home () {
   
 module.exports = home
 
+<a href="/places">
+  <button className="btn-primary">Places Page</button>
+</a>
+
+

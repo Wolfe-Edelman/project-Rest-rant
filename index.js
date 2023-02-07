@@ -15,6 +15,7 @@ const app = express()
 
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
+app.use=express()
 
 app.get('/', (req, res) => {
     res.render('home')
