@@ -1,7 +1,11 @@
 const router = require('express').Router()
 
+router.get('/new', (req, res) => {
+    res.render('/places/new')
+});
+
 router.get('/', (req, res) => {
-    res.send('GET /places')
+    res.send('GET /places/:id')
 })
 
 module.exports = router
